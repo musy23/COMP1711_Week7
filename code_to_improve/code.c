@@ -83,7 +83,6 @@ int main()
             }
             mean /= numberOfElements; // numberOfElements will be equal to i when the program ends, so can use it in the mean function
             printf("Your average blood iron was %.2f\n", mean); //the % indicates output is a float, .2 is to get 2 decimal places
-            return 0;
             break;
 
         case 'C':
@@ -91,7 +90,7 @@ int main()
         for (int i = 0; i < numberOfElements; i++)
         {
             
-            printf("The reading with the highest blood iron level was %.2f\n")
+            
         }
 
             return 0;
@@ -124,7 +123,7 @@ int main()
 
         // if they type anything else:
         default:
-            printf("Invalid choice\n");
+            printf("Invalid choice, please choose one of the options displayed.\n");
             break;
         }
     }
